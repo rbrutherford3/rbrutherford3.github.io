@@ -1,0 +1,33 @@
+[submodule "repositories/ASCII-Chess"]
+	path = repositories/ASCII-Chess
+	url = https://github.com/rbrutherford3/ASCII-Chess.git
+[submodule "repositories/Baltimore-AA"]
+	path = repositories/Baltimore-AA
+	url = https://github.com/rbrutherford3/Baltimore-AA.git
+[submodule "repositories/customNOOBS"]
+	path = repositories/customNOOBS
+	url = https://github.com/rbrutherford3/customNOOBS.git
+[submodule "repositories/initpi"]
+	path = repositories/initpi
+	url = https://github.com/rbrutherford3/initpi.git
+[submodule "repositories/Jurisdiction-Finder"]
+	path = repositories/Jurisdiction-Finder
+	url = https://github.com/rbrutherford3/Jurisdiction-Finder.git
+[submodule "repositories/Lesley-Paige-Art"]
+	path = repositories/Lesley-Paige-Art
+	url = https://github.com/rbrutherford3/Lesley-Paige-Art.git
+[submodule "repositories/Pizza-Pricer"]
+	path = repositories/Pizza-Pricer
+	url = https://github.com/rbrutherford3/Pizza-Pricer.git
+[submodule "repositories/Shortest-Path"]
+	path = repositories/Shortest-Path
+	url = https://github.com/rbrutherford3/Shortest-Path.git
+[submodule "repositories/Task-Master-Android"]
+	path = repositories/Task-Master-Android
+	url = https://github.com/rbrutherford3/Task-Master-Android.git
+[submodule "repositories/Task-Master"]
+	path = repositories/Task-Master
+	url = https://github.com/rbrutherford3/Task-Master.git
+[submodule "repositories/rbrutherford3"]
+	path = repositories/rbrutherford3
+	url = https://github.com/rbrutherford3/rbrutherford3.git

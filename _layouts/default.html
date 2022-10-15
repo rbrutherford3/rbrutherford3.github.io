@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+	<title>{{ site.title | default: site.github.repository_name }}</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" href="{{ site.icon }}">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+	<link rel="stylesheet" href="/assets/css/style2.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+		<header>
+
+        <a href="/repositories/rbrutherford3/"><h1>{{ site.title | default: site.github.repository_name }}</h1>
+		
+		{% if site.headshot %}
+        <img src="{{ site.headshot }}" alt="headshot" style="max-width: 250px; max-height: 250px;"/></a>
+        {% endif %}
+		
+		<a href="{{ site.github.owner_url }}"><img src="/assets/img/github_icon.png" class="icon"></a>
+		<a href="https://linkedin.com/in/{{ site.linkedin_username }}/" ><img src="/assets/img/linkedin_icon.png" class="icon"></a>
+        <a href="https://stackoverflow.com/users/3130769/"><img src="/assets/img/stackoverflow_icon.png" class="icon"></a>
+		<a href="mailto:{{ site.email }}"><img src="/assets/img/email_icon.png" class="icon"></a>
+		{% include navigation.html %}	
+
+      </header>
+      <section>
+	  
+		{{ content }}
+		
+		
+		{% assign dir_name = page.dir %}
+	    {% assign start_slice = 14 %}
+		{% assign dir_name_length = dir_name | size %}
+		{% assign slice_length = dir_name_length | minus: 20 %}
+		{% assign repository_name = dir_name | slice: start_slice, slice_length %}
+		{% assign beginning_name = repository_name | slice: 0, 3 %}
+		{% if beginning_name != '' %}
+		  {% if beginning_name != 'rbr' %}
+		    
+		<hr>
+		  <a href="https://github.com/rbrutherford3/{{ repository_name }}/"><img src="/assets/img/github_icon.png" style="margin: 10px auto;"></a>
+          {% endif %}
+		{% endif %}
+
+      </section>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.google_analytics %}auto
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+  </body>
+</html>
