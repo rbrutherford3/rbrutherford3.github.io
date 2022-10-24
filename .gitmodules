@@ -7,9 +7,6 @@
 [submodule "repositories/customNOOBS"]
 	path = repositories/customNOOBS
 	url = https://github.com/rbrutherford3/customNOOBS.git
-[submodule "repositories/initpi"]
-	path = repositories/initpi
-	url = https://github.com/rbrutherford3/initpi.git
 [submodule "repositories/Jurisdiction-Finder"]
 	path = repositories/Jurisdiction-Finder
 	url = https://github.com/rbrutherford3/Jurisdiction-Finder.git
@@ -31,3 +28,9 @@
 [submodule "repositories/rbrutherford3"]
 	path = repositories/rbrutherford3
 	url = https://github.com/rbrutherford3/rbrutherford3.git
+[submodule "repositories/initPi"]
+	path = repositories/initPi
+	url = https://github.com/rbrutherford3/initPi.git
+[submodule "repositories/Site-Builder"]
+	path = repositories/Site-Builder
+	url = https://github.com/rbrutherford3/Site-Builder.git
