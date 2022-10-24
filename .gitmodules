@@ -37,3 +37,6 @@
 [submodule "repositories/docx-Publisher"]
 	path = repositories/docx-Publisher
 	url = https://github.com/rbrutherford3/docx-Publisher.git
+[submodule "repositories/Spiff-Industries-Website"]
+	path = repositories/Spiff-Industries-Website
+	url = https://github.com/rbrutherford3/Spiff-Industries-Website.git
