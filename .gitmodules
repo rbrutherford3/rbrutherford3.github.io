@@ -34,9 +34,9 @@
 [submodule "repositories/Site-Builder"]
 	path = repositories/Site-Builder
 	url = https://github.com/rbrutherford3/Site-Builder.git
-[submodule "repositories/docx-Publisher"]
-	path = repositories/docx-Publisher
-	url = https://github.com/rbrutherford3/docx-Publisher.git
 [submodule "repositories/Spiff-Industries-Website"]
 	path = repositories/Spiff-Industries-Website
 	url = https://github.com/rbrutherford3/Spiff-Industries-Website.git
+[submodule "repositories/PDF-Publisher"]
+	path = repositories/PDF-Publisher
+	url = https://github.com/rbrutherford3/PDF-Publisher.git
