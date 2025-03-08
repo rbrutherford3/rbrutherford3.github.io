@@ -1,6 +1,3 @@
-[submodule "repositories/ASCII-Chess"]
-	path = repositories/ASCII-Chess
-	url = https://github.com/rbrutherford3/ASCII-Chess.git
 [submodule "repositories/Baltimore-AA"]
 	path = repositories/Baltimore-AA
 	url = https://github.com/rbrutherford3/Baltimore-AA.git
@@ -40,3 +37,15 @@
 [submodule "repositories/PDF-Publisher"]
 	path = repositories/PDF-Publisher
 	url = https://github.com/rbrutherford3/PDF-Publisher.git
+[submodule "repositories/Local-Alcohol-Laws-API"]
+	path = repositories/Local-Alcohol-Laws-API
+	url = https://github.com/rbrutherford3/Local-Alcohol-Laws-API.git
+[submodule "repositories/rename_images"]
+	path = repositories/rename_images
+	url = https://github.com/rbrutherford3/rename_images.git
+[submodule "repositories/Authentic-Tarot"]
+	path = repositories/Authentic-Tarot
+	url = https://github.com/rbrutherford3/Authentic-Tarot.git
+[submodule "repositories/Unicode-Chess"]
+	path = repositories/Unicode-Chess
+	url = https://github.com/rbrutherford3/Unicode-Chess.git
